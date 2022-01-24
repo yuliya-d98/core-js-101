@@ -98,7 +98,7 @@ function getFastestPromise(array) {
  *    });
  *
  */
-async function chainPromises(/* array, action */) {
+function chainPromises(/* array, action */) {
   // return array.reduce(action);
   // let result = Promise.resolve();
   // array.forEach((item) => {
